@@ -1,5 +1,11 @@
-import Taro, { Component, Config } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import Taro, {
+  Component,
+  Config
+} from '@tarojs/taro'
+import {
+  View,
+  Text
+} from '@tarojs/components'
 import './index.scss'
 
 export default class Index extends Component {
@@ -15,22 +21,20 @@ export default class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  componentWillMount () { }
+  componentWillMount() {}
 
-  componentDidMount () { }
+  componentDidMount() {}
 
-  componentWillUnmount () { }
+  componentWillUnmount() {}
 
-  componentDidShow () { }
+  componentDidShow() {}
 
-  componentDidHide () { }
+  componentDidHide() {}
 
-  render () {
-    return (
+  render() {
+   return (
       <View className='index'>
-        <Text>20190418</Text>
-        ---
-        <Text>这是首页</Text>
+        <Text>这是我</Text>
       </View>
     )
   }
