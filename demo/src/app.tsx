@@ -21,6 +21,7 @@ class App extends Component {
   config: Config = {
     pages: [
       'pages/index/index',
+      'pages/chat/chat',
       'pages/me/me'
     ],
     window: {
@@ -39,7 +40,12 @@ class App extends Component {
         text: "首页",
         iconPath: "",
         selectedIconPath: ""
-      },
+      }, {
+          pagePath: "pages/chat/chat",
+          text: "消息",
+          iconPath: "",
+          selectedIconPath: ""
+        },
       {
         pagePath: "pages/me/me",
         text: "我的",
