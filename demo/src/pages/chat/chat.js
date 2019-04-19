@@ -7,7 +7,9 @@ import {
   Text
 } from '@tarojs/components'
 import './chat.scss'
-
+import {
+  AtTabBar, AtButton
+} from 'taro-ui'
 export default class Index extends Component {
 
   /**
@@ -32,9 +34,10 @@ export default class Index extends Component {
   componentDidHide() {}
 
   render() {
-    return ( <
-      View className = 'index' >
-      <Text > 这是消息 < /Text> </View>
+    return (
+      <View className = 'index' >
+          按钮文案
+      </View>
     )
   }
 }
